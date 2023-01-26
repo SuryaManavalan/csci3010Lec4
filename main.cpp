@@ -20,7 +20,7 @@ int main(){
 	for(long long unsigned int i=0;i<res1.size();i++){
 		std::cout<<res1[i]<<" ";
 	}
-    std::cout << std::endl;
+    std::cout << " " << std::endl;
     std::cout << "Even Mask:" <<std::endl;
 	std::vector<bool> res2 = EvenMask(v2);
 	for(long long unsigned int i=0;i<res2.size();i++){
